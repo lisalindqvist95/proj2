@@ -1,11 +1,13 @@
 // Ask a question functions: 
 var input = document.getElementById("userQuestion");
+
 input.addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
         event.preventDefault();
         document.getElementById("myBtn").click();
     }
 });
+
 
 function askFunction() {
     let userQuestion =
@@ -110,3 +112,15 @@ function rollTheDice() {
   }, 2500);
 }
 
+function showDate () {
+const date = new Date();
+
+let day = date.getDate();
+let month = date.getMonth() + 1;
+let year = date.getFullYear();
+
+// This arrangement can be altered based on how we want the date's format to appear.
+let currentDate = `${day}-${month}-${year}`;
+document.getElementsByClassName("date").innerHTML = "Today is" + currentDate;
+console.log(date);
+}

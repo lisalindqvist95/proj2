@@ -120,7 +120,7 @@ font-style: italic;
 
 #answer3 {
     width: 100%;
-    margin: 60px;
+    margin: 100px;
 }
 
 #number {
@@ -174,8 +174,9 @@ h2 {
     width:40%;
 }
 
-
-
+.date {
+    color: #FFF;
+}
 /* Media with a screen of max-width 865px */
 @media only screen and (max-width: 865px) {    
    #menu{
@@ -205,6 +206,10 @@ h2 {
 
 .box {
     width: 300px;
+}
+#answer3 {
+    width: 100%;
+    margin: 20px;
 }
 }
 /* Media with a screen of max-width 425px */
