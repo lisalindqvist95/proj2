@@ -1,108 +1,85 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+[View live project here](https://lisalindqvist95.github.io/proj1/)
+# Crystal Universe
+## About
+Crystal Universe is a site with fun but silly features to entertain the user. The site is targeted towards anyone who enjoys fortune telling in popular culture like tarot readings, fortune cookies or magic 8-balls. This idea is based on the popularity of similar filters on TikTok where the user can receive a randomized answer, letter or number as well as the rise of tarot readers on social media. The site contains features where the user can ask a yes- or no question and get an answer,  receive a lucky number, receive a message or play a game of dice. The website is fully responsive so that the user can use it on their phone, tablet or computer. 
 
-Welcome lisalindqvist95,
+![Responsive Mockup](https://github.com/lisalindqvist95/proj1/blob/main/media/mockup_responsive.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
+- __The Crystal Universe Logo/Heading__
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+  - The logo/heading is featured at the top of the page.  
+  - It is glowing to attract the attention of the user and to create a magical ambiance on the site. 
+  - The blinking/glowing is set to be quite slow in order to not be too distracting for the user. 
 
-## Gitpod Reminders
+![Heading](https://github.com/lisalindqvist95/proj1/blob/main/media/navbar.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- __Navigation Bar__
 
-`python3 -m http.server`
+  - The Navigation bar is placed under the heading and has the title for each feature in order to make it easier for the user to navigate on the site. 
+  - The text in the navbar changes color if the user hovers over it to show the user that it is a clickable link.
 
-A blue button should appear to click: _Make Public_,
+![Nav Bar](https://github.com/lisalindqvist95/proj1/blob/main/media/navbar.png)
 
-Another blue button should appear to click: _Open Browser_.
+- __The ”Ask a question”-feature__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - This section allows the user to type a question and receive an answer.  
+  - The answer is randomized just like a magic 8-ball. 
+  - The question as well as the answer is printed in case the user would like to take a screenshot and share with friends. However if the user can’t be bothered to type out the question they can also just click the ask-button and receive the answer.
 
-A blue button should appear to click: _Make Public_,
+![Ask a question](https://github.com/lisalindqvist95/proj1/blob/main/media/tour_dates.png)
 
-Another blue button should appear to click: _Open Browser_.
+- __The ”Todays lucky number”-feature__
+ 
+  - This section provides the user with a lucky number for the day. 
+  - The number is randomized between 0-9999 in order for the user to be able to get angel numbers. 
+  
+ ![Lucky number](https://github.com/lisalindqvist95/proj1/blob/main/media/merch.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __The ”Receive a message”- feature__
 
-To log into the Heroku toolbelt CLI:
+  - Based on fortune cookies this feature gives the user a randomized message.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Message](https://github.com/lisalindqvist95/proj1/blob/main/media/merch.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __The ”Play a game”- feature__
+  
+  - Based on the popularity of [Bones/no bones-day](https://www.npr.org/2021/10/19/1047302978/noodles-pug-bones-no-bones-day-tiktok-mood-prediction) on TikTok, this game lets you play a game of dice against the universe to see wheatear what kind of day you will have.
+  -  If the universe wins it’s a sign that you should lay low that day and if the user wins it’s a sign to seize the day. 
 
-------
+![Dice game](https://github.com/lisalindqvist95/proj1/blob/main/media/merch.png)
 
-## Release History
+ ### Possible Features to Implement
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+ - __Tarot cards__
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+   - This site could have a feature which gives the user one or more tarot-cards for an online reading. Since most of the other features are based on giving the user a reading of the current day, the tarot card could be a prediction of the current day. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+ - __Visuals__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+   - There could be animated visuals for each feature instead of just text, for example an animated magic 8-ball for the ask-function. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+ - __Share on social media__
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+   - Since a lot of these features are already popular on social media, a part of the appeal is sharing the results with your friends. Therefore a feature could be a link for the user to share on social media. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Testing
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Responsiveness
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+  - The website is responsive so that it can be used on different screen-sizes. 
+  - It has three media queries for different sizes: max width of 865px, max width of 600px, 425px. The width was chosen based on when the layout started to look distorted. If more features and visuals are added to the site it will mots likely need to be adjusted with more mediea queries. 
+  - The responsiveness was tested using DevTools.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Browser Testing
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  - The website is tested on the commonly used browsers: Chrome, Safari, Edge, Firefox and Opera. 
+  - There was a problem in Firefox where the placeholder text in the form-field wouldn't show. This was fixed by changing the color in the CSS-file. 
+  - In Safari there was an issue with the google fonts that would not load. This was fixed by adding the font-weight and font-family to the textelement in the CSS-file.
+  
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
 
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!

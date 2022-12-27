@@ -1,5 +1,6 @@
 body {
-    font-family: Forum;
+    font-family: "Forum";
+    font-weight: regular;
     background-image: url('../images/background_img_crystal_ball.jpg');
     background-color: #000;
     background-position: center;
@@ -120,7 +121,7 @@ font-style: italic;
 
 #answer3 {
     width: 100%;
-    margin: 100px;
+    margin: 90px;
 }
 
 #number {
