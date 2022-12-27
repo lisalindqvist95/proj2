@@ -48,7 +48,6 @@ nav a {
 nav a:hover {
     color: #ADF558;
     text-decoration: underline;
-    font-weight: bold;
 }
 
 .flex-container {
@@ -63,7 +62,7 @@ nav a:hover {
 .box {
     background-color: #191970;
     width: 300px;
-    height: 300px;
+    height: 320px;
     border-radius: 5px;
 }
 
@@ -72,6 +71,8 @@ p {
     text-align: center;
     font-size: 20px;
 }
+
+
 
 .small {
     font-size: 15px;
@@ -108,11 +109,21 @@ button:hover {
     background-color: #ADF558;
 }
 
+#answer {
+    padding: 15px;
+}
+
+#answer2, #answer3 {
+font-size: 20px;
+font-style: italic;
+}
+
 #number {
  font-size:80px;
   color: #FFF;
   text-align: center;
   margin:0;
+  padding-top: 15px;
 }
 
 h2 {
@@ -123,6 +134,16 @@ h2 {
     padding-bottom: 0;
     margin-bottom: 0;  
 }
+
+.small a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.small a:hover {
+    color: #ADF558;
+}
+
 
 
 
@@ -178,8 +199,11 @@ h2 {
 }
 /* Media with a screen of max-width 425px */
 @media only screen and (max-width: 425px) { 
+   .glow {
+    margin-bottom: 10px;
+   }
     ul {
-        width: 90%;
+        width: 85%;
        }
        nav li {
         padding-top: 10px;

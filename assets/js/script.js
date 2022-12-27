@@ -102,9 +102,10 @@ function rollTheDice() {
     }
 
     else {
+
       document.querySelector("h2").innerHTML
         = ("You WIN!");
-        document.querySelector(".small").innerHTML = "Time to seize the day!"
+        document.querySelector(".small").innerHTML = "<a href='https://www.youtube.com/watch?v=G2e_M06YDyY' target='_blank'>" + "Time to seize the day!" + "</a>";
     }
   }, 2500);
 }
