@@ -26,15 +26,30 @@
     </div>
     <div class="flex-container">
         <div class="box">
-            <p class="small">Remember, the universe can only answer polar questions.</p>
+            <h2 class="small">Let's Play</h2>
             <div class="box-content">
-                <input id="userQuestion" type="text" value="Type your question" onfocus="this.value=''">
-                <button onclick="printAnswer();askFunction()" id="myBtn">Ask</button>
+      
+      
+              <div class="dice">
+                <p class="Player1">You</p>
+                <img class="img1" src="dice6.png">
+              </div>
+      
+              <div class="dice">
+                <p class="Player2">The universe</p>
+                <img class="img2" src="dice6.png">
+              </div>
             </div>
-            <p id="answer"> </p>
-            <p id="answer2"></p>
+      
+            <div class="container bottom">
+              <button type="button" class="butn" onClick="rollTheDice()">
+                Roll the Dice
+              </button>
+            </div>
+            <div class="movesleft">Moves Left: 3 </div>
+          </div>
         </div>
-    </div>
+      
 
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/edff5d9969.js" crossorigin="anonymous"></script>
