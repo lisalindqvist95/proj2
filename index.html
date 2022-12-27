@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <h1 class="glow">CRYSTAL UNIVERSE</h1>
+    <div class="menu">
+        <nav id="menu">
+            <ul>
+                <li><i class="fa-solid fa-infinity"></i> Ask a question</li>
+                <li><i class="fa-solid fa-clover"></i> Todays Lucky number</li>
+                <li><i class="fa-solid fa-hat-wizard"></i> Recieve a message</li>
+                <li><i class="fa-solid fa-dice"></i> Play a game</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="flex-container">
+        <div class="box">
+            <p class="small">Remember, the universe can only answer polar questions.</p>
+            <div class="box-content">
+                <input id="userQuestion" type="text" value="Type your question" onfocus="this.value=''">
+                <button onclick="printAnswer();askFunction()" id="myBtn">Ask</button>
+            </div>
+            <p id="answer"> </p>
+            <p id="answer2"></p>
+        </div>
+    </div>
+
     <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/edff5d9969.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
