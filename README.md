@@ -1,4 +1,4 @@
-[View live project here](https://lisalindqvist95.github.io/proj1/)
+[View live project here](https://lisalindqvist95.github.io/proj2/)
 # Crystal Universe
 ## About
 Crystal Universe is a site with fun but silly features to entertain the user. The site is targeted towards anyone who enjoys fortune telling in popular culture like tarot readings, fortune cookies or magic 8-balls. This idea is based on the popularity of similar filters on TikTok where the user can receive a randomized answer, letter or number as well as the rise of tarot readers on social media. The site contains features where the user can ask a yes- or no question and get an answer,  receive a lucky number, receive a message or play a game of dice. The website is fully responsive so that the user can use it on their phone, tablet or computer. 
@@ -74,9 +74,51 @@ Crystal Universe is a site with fun but silly features to entertain the user. Th
 ### Browser Testing
 
   - The website is tested on the commonly used browsers: Chrome, Safari, Edge, Firefox and Opera. 
-  - There was a problem in Firefox where the placeholder text in the form-field wouldn't show. This was fixed by changing the color in the CSS-file. 
-  - In Safari there was an issue with the google fonts that would not load. This was fixed by adding the font-weight and font-family to the textelement in the CSS-file.
-  
+  - All features worked oon the tested browsers.
+  - In Firefox there was an issue with the background not covering the entire page when the site was viewed in a very narrov window. This was fixed by adjusting the content within the media queries. 
+
+### Validator Testing 
+   - HTML
+     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+   - CSS
+     - No errors were found when passing through the official [(Jigsaw) validator]()
+   - JavaScript
+     - No errors were found when passing through the official [(Jigsaw) validator]()
+        - The following metrics were returned:
+        - 
+        - 
+
+
+## Unfixed Bugs 
+  - __Links__
+   - ??
+
+## Deployment
+  - The site was created via GitPod an deployed to GitHub pages using the following steps: 
+    - The material is added and pushed to GitHub via GitPod
+    - In the GitHub repository go to the settings tab above the code
+    - In the settings tab navigate to pages
+    - Fill in the source Deploy from a branch and choose "main" and save
+
+## Credits
+
+ ### Content
+
+  - The icons in the navigation bar are from [Font Awesome](https://fontawesome.com/)
+  - Some answers to the "Ask a question" feature came from this [Wikipedia article](https://en.wikipedia.org/wiki/Magic_8_Ball)
+  - Some messages for the "Receive a message" feature came from this article on [Your Dictionary](https://examples.yourdictionary.com/articles/funny-fortune-cookie-sayings.html)
+  - Flex container example code came from [w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flex-wrap_wrap)
+  - Glowing text came from [w3schools](https://www.w3schools.com/howto/howto_css_glowing_text.asp)
+  - How to randomize an array (Fisher-Yates shuffle algorithm) came from[w3docs](https://www.w3docs.com/snippets/javascript/how-to-randomize-shuffle-a-javascript-array.html)
+  - Help with user input and response came from this [Youtube tutorial](https://www.youtube.com/watch?v=KB6Yg5hNrqc)
+  - Help to clear input field came from [w3schools](https://www.w3schools.com/howto/howto_html_clear_input.asp)
+  - Help with triggering a a button on enter came from [w3schools](https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp)
+  - Dice game and images came from [Geeksforgeeks](https://www.geeksforgeeks.org/building-a-dice-game-using-javascript/)
+  - Help with links within a javascript string came from [w3schools](https://www.w3schools.com/jsref/jsref_link.asp)
+ 
+ ### Media
+   - The photos used on the site and merch were taken from [Unsplash](https://unsplash.com/)
+     
 
 
 

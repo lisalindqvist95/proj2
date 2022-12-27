@@ -1,4 +1,4 @@
-// Ask a question functions: 
+// Ask a question feature: 
 var input = document.getElementById("userQuestion");
 
 input.addEventListener("keypress", function (event) {
@@ -7,7 +7,6 @@ input.addEventListener("keypress", function (event) {
         document.getElementById("myBtn").click();
     }
 });
-
 
 function askFunction() {
     let userQuestion =
@@ -36,18 +35,16 @@ function printAnswer() {
     // Usage of shuffle
     let arr = ["Yes.", "Yup!", "Sí.", "No.", "Nope!", "No way José.", "Maybe...", "Ask Again Later...", "Without a doubt.", "Yes definitely.", "Don't count on it.", "Outlook not so good.", "Cannot predict now.", "Why would you ask that?", "Don't worry about it.", "What do you think?"];
     arr = shuffleArray(arr);
+    // Answers from https://en.wikipedia.org/wiki/Magic_8_Ball
 
     document.getElementById("answer2").innerHTML =
         arr[0];
-
-
 }
 
 
 // Lucky number generator : 
 function luckyNumber() {
-    document.getElementById("number").innerHTML =
-        Math.floor(Math.random() * 10000);
+    document.getElementById("number").innerHTML = Math.floor(Math.random() * 10000);
 }
 
 
@@ -70,13 +67,17 @@ function printoAnswer() {
     }
     let arr2 = ["Make it happen.", "Someone is thinking about you.", "Have you considered getting a tattoo?", "You’re good.", "Maybe it’s time to treat yourself.", "You look pretty today.", "Don’t rush!", "Don’t feel sad if you didn’t get the answer you wanted.", "You're on the right path.", "If you look back, you’ll soon be going that way.", "An alien of some sort will be appearing to you shortly.", "Flattery will go far tonight.", "Don’t behave with cold manners.", "It is a good day to have a good day.", "You are not illiterate."];
     arr2 = shuffleArray(arr2);
+    // Answers from https://examples.yourdictionary.com/articles/funny-fortune-cookie-sayings.html
 
     document.getElementById("answer3").innerHTML =
         arr2[0];
 }
 
-// Game
+// Game Feature
 
+/* Shuffle Array code from: 
+https://www.geeksforgeeks.org/building-a-dice-game-using-javascript/
+*/
 // Function to roll the dice
 function rollTheDice() {
     setTimeout(function () {
@@ -103,12 +104,4 @@ function rollTheDice() {
     }, 2500);
 }
 
-    const date = new Date();
-
-    let day = date.getDate();
-    let month = date.getMonth() + 1;
-    let year = date.getFullYear();
-
-    // This arrangement can be altered based on how we want the date's format to appear.
-    let currentDate = `${day}-${month}-${year}`;
-    document.getElementsByClassName("date").innerHTML = "Today is" + currentDate;
+    
