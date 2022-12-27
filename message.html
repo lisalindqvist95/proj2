@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Crystal Universe">
+    <meta name="keywords" content="fortune-telling, lucky-number, magic">
 
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
 
@@ -19,7 +21,7 @@
             <ul>
                 <li><a href="index.html"><i class="fa-solid fa-infinity"></i> Ask a question</a></li>
                 <li><a href="luckynr.html"><i class="fa-solid fa-clover"></i> Todays Lucky number </a></li>
-                <li></i><a href="message.html"><i class="fa-solid fa-hat-wizard"></i> Recieve a message</a></li>
+                <li><a href="message.html"><i class="fa-solid fa-hat-wizard"></i> Recieve a message</a></li>
                 <li><a href="game.html"><i class="fa-solid fa-dice"></i> Play a game</a></li>
             </ul>
         </nav>
@@ -28,12 +30,12 @@
         <div class="box">
             <p>Your message is:</p>
             <div class="box-content">
-            <button onclick="printoAnswer();" id="myBtn">Give me a message</button>
-            <p id="answer3"></p>
-        </div>
+                <button onclick="printMessage();" id="aBtn">Give me a message</button>
+                <p id="message"></p>
+            </div>
 
         </div>
-        </div>
+    </div>
 
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/edff5d9969.js" crossorigin="anonymous"></script>

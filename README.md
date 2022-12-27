@@ -70,6 +70,7 @@ Crystal Universe is a site with fun but silly features to entertain the user. Th
   - The website is responsive so that it can be used on different screen-sizes. 
   - It has three media queries for different sizes: max width of 865px, max width of 600px, 425px. The width was chosen based on when the layout started to look distorted. If more features and visuals are added to the site it will mots likely need to be adjusted with more mediea queries. 
   - The responsiveness was tested using DevTools.
+  - Sometimes depending on the sixe of the window, the background got distracting for the readability of the navbar, this was fixed by adding a background color to the navbar. 
 
 ### Browser Testing
 
@@ -83,15 +84,16 @@ Crystal Universe is a site with fun but silly features to entertain the user. Th
    - CSS
      - No errors were found when passing through the official [(Jigsaw) validator]()
    - JavaScript
-     - No errors were found when passing through the official [(Jigsaw) validator]()
-        - The following metrics were returned:
-        - 
-        - 
+     - No errors were found when passing through the official [(Jigsaw) validator](https://jshint.com/)
+        - There are 9 functions in this file.
+        - Function with the largest signature take 1 arguments, while the median is 0.
+        - Largest function has 11 statements in it, while the median is 3.
+        - The most complex function has a cyclomatic complexity value of 3 while the median is 1.
 
 
 ## Unfixed Bugs 
-  - __Links__
-   - ??
+  - __Background__
+   - Sometimes when resizing the window so that it is smaller than the content height, the background will not rezise to fit the window sice it is based on the height of the window. The background color is set to match the background image in order for this to not disturb the user.
 
 ## Deployment
   - The site was created via GitPod an deployed to GitHub pages using the following steps: 

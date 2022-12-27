@@ -1,13 +1,13 @@
 body {
-    font-family: "Forum";
-    font-weight: regular;
     background-image: url('../images/background_img_crystal_ball.jpg');
-    background-color: #000;
+    background-color: #150124;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    font-family: "Forum", 'Times New Roman', Times, serif;
+    font-weight: regular;
     height: 100vh;
+    position: relative;
 }
 
 /* Glowing text from https://www.w3schools.com/howto/howto_css_glowing_text.asp */
@@ -27,11 +27,14 @@ body {
         text-shadow: 0 0 10px #fff, 0 0 20px #8A2BE2, 0 0 30px #8A2BE2, 0 0 40px #8A2BE2, 0 0 50px #8A2BE2, 0 0 60px #8A2BE2, 0 0 70px #8A2BE2;
     }
 }
+
 /* End of Glowing text from w3scools  */
 
+/* Navigation */
 nav ul {
-    text-align: center;
+    background-color: #150124;
     padding: 0;
+    text-align: center;
 }
 
 nav li {
@@ -40,10 +43,10 @@ nav li {
 
 nav a {
     color: #FFF;
-    text-decoration: none;
     font-size: 20px;
-    text-transform: uppercase;
     padding: 9px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 nav a:hover {
@@ -51,94 +54,98 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* Content container all pages */
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
     margin: auto;
-    flex-wrap: wrap;
     width: 100%;
 }
 
 .box {
     background-color: #191970;
-    width: 500px;
-    height: 340px;
     border-radius: 5px;
+    height: 340px;
+    width: 500px;
 }
 
 p {
     color: #FFF;
-    text-align: center;
     font-size: 20px;
+    text-align: center;
 }
-
-
 
 .small {
     font-size: 15px;
-    padding: 15px;
     font-style: italic;
+    padding: 15px;
 }
 
 .box-content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    flex-wrap: wrap;
     width: 100%;
-}
-
-#userQuestion {
-    margin: 0;
-    border: none;
-    font-family: Forum;
-    border-radius: 6px;
 }
 
 button {
     background-color: #FFF;
     border: none;
     border-radius: 6px;
-    font-family: Forum;
-    text-transform: uppercase;
+    font-family: Forum, 'Times New Roman', Times, serif;
     margin-left: 8px;
     padding: 5px;
+    text-transform: uppercase;
 }
 
 button:hover {
     background-color: #ADF558;
 }
 
-#answer {
+/* Styling for Ask a question-feature below*/
+#userQuestion {
+    border: none;
+    border-radius: 6px;
+    font-family: Forum, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+#printQuestion {
     padding: 15px;
 }
 
-#answer2, #answer3 {
-font-size: 20px;
-font-style: italic;
+#answer, #message {
+    font-size: 20px;
+    font-style: italic;
 }
 
-#answer3 {
-    width: 100%;
-    margin: 90px;
-}
-
+/* Styling for Lucky number -feature below*/
 #number {
- font-size:80px;
-  color: #FFF;
-  text-align: center;
-  margin:0;
-  padding-top: 30px;
+    color: #FFF;
+    font-size: 80px;
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
 }
 
+/* Styling for message-feature below*/
+#message {
+    margin: 90px;
+    width: 100%;
+}
+
+
+/* Styling for Game-feature below*/
 h2 {
     color: #FFF;
-    text-decoration: none;
     font-size: 25px;
-    text-align: center;  
+    margin-bottom: 0;
     padding-bottom: 0;
-    margin-bottom: 0;  
+    text-decoration: none;
+    text-align: center;
 }
 
 .small a {
@@ -150,20 +157,17 @@ h2 {
     color: #ADF558;
 }
 
-
-
-
 .container-bottom {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    flex-wrap: wrap;
     padding-top: 25px;
     width: 100%;
 }
 
-.Player1, .Player2{
-    margin-top:0;
+.Player1, .Player2 {
+    margin-top: 0;
 }
 
 .dice {
@@ -172,65 +176,70 @@ h2 {
 }
 
 .img1, .img2 {
-    width:40%;
+    width: 40%;
 }
 
-.date {
-    color: #FFF;
-}
+
 /* Media with a screen of max-width 865px */
-@media only screen and (max-width: 865px) {    
-   #menu{
-    width: 100%;
-    text-align: center;
-    display: inline-block;
-   }
+@media only screen and (max-width: 865px) {
+    #menu {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+
     ul {
-    width: 75%;
-    text-align: center;
-    display: inline-block;
-   }
+        width: 75%;
+        text-align: center;
+        display: inline-block;
+    }
 }
 
 /* Media with a screen of max-width 600px */
-@media only screen and (max-width: 600px) {  
-   
+@media only screen and (max-width: 600px) {
+
     .glow {
         margin-bottom: 5px;
-       }
-       
+    }
+
     ul {
         width: 60%;
-       }
+    }
+
     nav li {
         padding-top: 10px;
     }
 
-#answer3 {
-    width: 80%;
+    #message {
+        width: 80%;
+    }
+
+    .box {
+        width: 300px;
+    }
+
+    #message {
+        width: 100%;
+        margin: 20px;
+    }
 }
 
-.box {
-    width: 300px;
-}
-#answer3 {
-    width: 100%;
-    margin: 20px;
-}
-}
 /* Media with a screen of max-width 425px */
-@media only screen and (max-width: 425px) { 
+@media only screen and (max-width: 425px) {
 
-        ul {
+    ul {
         width: 85%;
-       }
-       nav li {
+    }
+
+    nav li {
         padding-top: 10px;
     }
+
     nav a {
         font-size: 18px;
     }
-       .glow {
+
+    .glow {
         font-size: 60px;
-}
+    }
 }
