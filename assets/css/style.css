@@ -1,3 +1,146 @@
+html,
+body {}
+
 body {
-    background-color: aliceblue;
+    font-family: Forum;
+    background-image: url('../images/background_img_crystal_ball.jpg');
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
 }
+
+/* Glowing text from https://www.w3schools.com/howto/howto_css_glowing_text.asp */
+.glow {
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8A2BE2, 0 0 40px #8A2BE2, 0 0 50px #8A2BE2, 0 0 60px #8A2BE2, 0 0 70px #8A2BE2;
+    }
+
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #8A2BE2, 0 0 30px #8A2BE2, 0 0 40px #8A2BE2, 0 0 50px #8A2BE2, 0 0 60px #8A2BE2, 0 0 70px #8A2BE2;
+    }
+}
+/* End of Glowing text from w3scools  */
+
+nav ul {
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 9px;
+}
+
+nav a:hover {
+    color: #ADF558;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box {
+    background-color: #191970;
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+p {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+}
+
+.small {
+    font-size: 15px;
+    padding: 15px;
+    font-style: italic;
+}
+
+.box-content {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#userQuestion {
+    margin: 0;
+    border: none;
+    font-family: Forum;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #FFF;
+    border: none;
+    border-radius: 6px;
+    font-family: Forum;
+    text-transform: uppercase;
+    margin-left: 8px;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: #ADF558;
+}
+
+
+/* Media with a screen of max-width 865px */
+@media only screen and (max-width: 865px) {    
+   #menu{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+   }
+    ul {
+    width: 75%;
+    text-align: center;
+    display: inline-block;
+   }
+}
+
+/* Media with a screen of max-width 600px */
+@media only screen and (max-width: 600px) {  
+    ul {
+        width: 60%;
+       }
+    nav li {
+        padding-top: 10px;
+    }
+}
+/* Media with a screen of max-width 425px */
+@media only screen and (max-width: 425px) { 
+    ul {
+        width: 90%;
+       }
+       .glow {
+        font-size: 60px;
+}
+
