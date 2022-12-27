@@ -1,6 +1,3 @@
-html,
-body {}
-
 body {
     font-family: Forum;
     background-image: url('../images/background_img_crystal_ball.jpg');
@@ -143,4 +140,4 @@ button:hover {
        .glow {
         font-size: 60px;
 }
-
+}
