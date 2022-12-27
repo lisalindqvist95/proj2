@@ -45,7 +45,7 @@ function printAnswer() {
 // Lucky number generator : 
 function luckyNumber() {
 document.getElementById("number").innerHTML =
-Math.floor(Math.random() * 1001);
+Math.floor(Math.random() * 10000);
 }
 
 
