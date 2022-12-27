@@ -108,6 +108,13 @@ button:hover {
     background-color: #ADF558;
 }
 
+#number {
+ font-size:80px;
+  color: #FFF;
+  text-align: center;
+  margin:0;
+}
+
 
 /* Media with a screen of max-width 865px */
 @media only screen and (max-width: 865px) {    
