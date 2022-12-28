@@ -82,7 +82,7 @@ Crystal Universe is a site with fun but silly features to entertain the user. Th
    - HTML
      - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Flisalindqvist95.github.io%2Fproj2%2F)
    - CSS
-     - No errors were found when passing through the official [(Jigsaw) validator]()
+     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flisalindqvist95.github.io%2Fproj2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
    - JavaScript
      - No errors were found when passing through the official [(Jigsaw) validator](https://jshint.com/)
         - There are 9 functions in this file.
@@ -90,11 +90,10 @@ Crystal Universe is a site with fun but silly features to entertain the user. Th
         - Largest function has 11 statements in it, while the median is 3.
         - The most complex function has a cyclomatic complexity value of 3 while the median is 1.
 
-
 ## Unfixed Bugs 
   - __Background__
    - Sometimes when resizing the window so that it is smaller than the content height, the background will not rezise to fit the window sice it is based on the height of the window. The background color is set to match the background image in order for this to not disturb the user.
-   
+ - __Background__
 
 ## Deployment
   - The site was created via GitPod an deployed to GitHub pages using the following steps: 
