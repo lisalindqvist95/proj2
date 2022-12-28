@@ -1,7 +1,7 @@
 [View live project here](https://lisalindqvist95.github.io/proj2/)
 # Crystal Universe
 ## About
-Crystal Universe is a site with fun but silly features to entertain the user. The site is targeted towards anyone who enjoys fortune telling in popular culture like tarot readings, fortune cookies or magic 8-balls. This idea is based on the popularity of similar filters on TikTok where the user can receive a randomized answer, letter or number as well as the rise of tarot readers on social media. The site contains features where the user can ask a yes- or no question and get an answer,  receive a lucky number, receive a message or play a game of dice. The website is fully responsive so that the user can use it on their phone, tablet or computer. 
+Crystal Universe is a site with fun but silly features to entertain the user. The site is targeted towards anyone who enjoys fortune telling in popular culture like tarot readings, fortune cookies or magic 8-balls. This idea is based on the popularity of similar filters on TikTok where the user can receive a randomized answer, letter or number as well as the rise of tarot readers on social media. The site contains features where the user can ask a yes- or no question and get an answer, receive a lucky number, receive a message or play a game of dice. 
 
 ![Responsive Mockup](https://github.com/lisalindqvist95/proj2/blob/main/media/mockup.png)
 
@@ -80,7 +80,7 @@ Crystal Universe is a site with fun but silly features to entertain the user. Th
 
 ### Validator Testing 
    - HTML
-     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Flisalindqvist95.github.io%2Fproj2%2F)
    - CSS
      - No errors were found when passing through the official [(Jigsaw) validator]()
    - JavaScript
@@ -94,6 +94,7 @@ Crystal Universe is a site with fun but silly features to entertain the user. Th
 ## Unfixed Bugs 
   - __Background__
    - Sometimes when resizing the window so that it is smaller than the content height, the background will not rezise to fit the window sice it is based on the height of the window. The background color is set to match the background image in order for this to not disturb the user.
+   
 
 ## Deployment
   - The site was created via GitPod an deployed to GitHub pages using the following steps: 
